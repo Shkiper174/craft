@@ -29,43 +29,42 @@ body {
   text-align: center; }
 
 .logo img {
-  width: 250px;
+  width: auto;
   height: 250px; }
-
-.menu {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  color: #fff;
-  text-decoration: none; }
-  .menu:last-child {
-    margin-right: 0; }
-
-.menu ul {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  font-size: 1.2em; }
-
-a {
-  text-decoration: none; }
-
-.menu ul li {
-  display: inline-block;
-  color: #fff;
-  cursor: pointer; }
 
 .wrapper {
   background-image: url("../../../img/2.jpg"); }
 
 .info {
-  padding: 20px;
+  padding: 10px;
   background-color: #080808;
-  height: 100px;
-  color: #fff;
+  height: 350px;
+  color: #a9a9a9;
   font-size: 22px; }
+
+.info .video {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  margin-left: 8.5298%;
+  float: left;
+  margin-top: 1%; }
+  .info .video:last-child {
+    margin-right: 0; }
+
+.info blockquote {
+  padding: 10px;
+  text-align: center;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  float: left;
+  margin-top: 0px;
+  font-size: 16px; }
+  .info blockquote:last-child {
+    margin-right: 0; }
 
 .geo {
   font-size: 18px;

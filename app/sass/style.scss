@@ -26,44 +26,38 @@ text-align: center;
 }
 
 .logo img {
-	width: 250px;
+	width: auto;
 	height: 250px;
 }
 
-.menu{
-	@include span-columns(12);
-	color:#fff;
-	text-decoration: none;
-
-}
-
-.menu ul{
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	font-size: 1.2em;
-}
-a{
-	text-decoration: none;
-}
-.menu ul li {
-	display: inline-block;
-	color: #fff;
-	cursor: pointer;
-}
 
 .wrapper{
 background-image: url("../../../img/2.jpg");
 }
 .info{
-	padding: 20px;
+	padding: 10px;
 	background-color: #080808; 
-	height: 100px;
-	color: #fff;
+	height: 350px;
+	color:#a9a9a9;
 	font-size: 22px;
+	
+}
+.info .video{
+	@include span-columns(5);
+	@include shift(1);
+	float:left;
+	margin-top: 1%;
+}
+.info blockquote{
+	padding:10px;
+	text-align: center;
+	@include span-columns(5);
+	float:left;
+	margin-top:0px;
+	font-size: 16px;
 
 }
+
 .geo{
 	font-size: 18px;
 	text-align: center;
