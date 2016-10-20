@@ -5,7 +5,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-image: url(../../../img/bg.png);
+  background-color: #efefef;
   margin: 0;
   font-family: 'Zhizn';
   font-weight: 400;
@@ -15,11 +15,11 @@ body {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
+  height: 300px;
   background-image: url("../../../img/header.png");
-  max-width: 100%;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%; }
   .header::after {
     clear: both;
     content: "";
@@ -29,8 +29,8 @@ body {
   text-align: center; }
 
 .logo img {
-  width: 150px;
-  height: 150px; }
+  width: 250px;
+  height: 250px; }
 
 .menu {
   float: left;
@@ -57,6 +57,59 @@ a {
   color: #fff;
   cursor: pointer; }
 
+.wrapper {
+  background-image: url("../../../img/2.jpg"); }
+
+.info {
+  padding: 20px;
+  background-color: #080808;
+  height: 100px;
+  color: #fff;
+  font-size: 22px; }
+
+.geo {
+  font-size: 18px;
+  text-align: center;
+  color: #efefef; }
+
+.pphone, .pmail, .pgeo, .ptime {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .pphone:last-child, .pmail:last-child, .pgeo:last-child, .ptime:last-child {
+    margin-right: 0; }
+
+.geo .pgeo:before {
+  content: "";
+  background-image: url("../../../img/icons/geo.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-right: 10px; }
+
+.geo .pphone:before {
+  content: "";
+  background-image: url("../../../img/icons/phone.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-right: 10px; }
+
+.geo .pmail:before {
+  content: "";
+  background-image: url("../../../img/icons/mail.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-right: 10px; }
+
 thead {
   font-weight: bold;
   color: #fff; }
@@ -64,7 +117,7 @@ thead {
 table {
   width: 100%;
   text-align: center;
-  color: #7a7368; }
+  color: #FFFFFF; }
 
 td {
   padding: 15px; }
@@ -85,6 +138,16 @@ tbody tr:hover {
   .tap-list:last-child {
     margin-right: 0; }
 
+.tap-list h1:after {
+  content: "-";
+  display: inline-block;
+  position: relative; }
+
+.tap-list h1:before {
+  content: "-";
+  display: inline-block;
+  position: relative; }
+
 .tap-list h1 {
   margin: 0;
   color: #7a7368; }
@@ -98,7 +161,8 @@ tbody tr:hover {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  background-color: #000; }
   .gallery:last-child {
     margin-right: 0; }
 
